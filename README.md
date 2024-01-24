@@ -30,8 +30,3 @@
 
 *PS: 链接最好复制到浏览器自行打开，直接点击打开可能出错。*
 
-## 如何使用
-
-1. 克隆项目到本地
-   ```bash
-   git clone https://github.com/your_username/your_repo.git
