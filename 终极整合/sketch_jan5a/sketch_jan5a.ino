@@ -13,25 +13,25 @@
 #define I2S_DOUT      4  //25
 #define I2S_BCLK      5  //27
 #define I2S_LRC       6  //26
-#define VOICE_PIN_1 1
-#define VOICE_PIN_42 42
-#define VOICE_PIN_40 40
+#define VOICE_PIN_1 1    //唤醒音引脚
+#define VOICE_PIN_42 42  //唤醒音引脚
+#define VOICE_PIN_40 40  //唤醒音引脚
 
 
 // WiFi设置
-const char* ssid = "ASUS GJW";     // 替换为您的WiFi名称
-const char* password = "12345678"; // 替换为您的WiFi密码
+const char* ssid = "your wifi name";     // 替换为您的WiFi名称
+const char* password = "your wifi password"; // 替换为您的WiFi密码
 const int resetPin = 0;    // 设置重置按键引脚
 int connectTimeOut_s = 15; // WiFi连接超时时间，单位秒
 // MQTT设置
-const char* mqtt_server = "192.168.2.8"; // 替换为您的MQTT服务器地址
+const char* mqtt_server = "your mqttServer address"; // 替换为您的MQTT服务器地址
 const int mqtt_port = 1883;
 WiFiClient espClient;
 PubSubClient client(espClient);
 Audio audio;
 // 百度STT API设置
-const char* CLIENT_ID = "PjFa4O5ioXojwyfdSTHtNMnh";
-const char* CLIENT_SECRET = "7BZtKSpsIhAWHGOYB2ygNG500lO2fx6e";
+const char* CLIENT_ID = "your baidu API ID";
+const char* CLIENT_SECRET = "your baidu API secret";
 
 // 其他全局变量
 HTTPClient http_client;
@@ -139,7 +139,7 @@ void loop() {
     if (digitalRead(VOICE_PIN_42) == HIGH) {
         // 执行录音到播放音频的整个流程
         Serial.println("重复");
-        audio.connecttohost("http://10.178.122.30:5000/latest_audio");
+        audio.connecttohost("http://localhost:5000/latest_audio");   //这里需要修改成自己PC的IP和自行设置的端口
         delay(10);
     }
     audio.loop();
