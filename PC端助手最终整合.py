@@ -13,11 +13,11 @@ app = Flask(__name__)
 latest_audio_data = io.BytesIO()
 
 # MQTT设置
-mqtt_server = "10.178.122.30"  # 替换为您的MQTT服务器地址
+mqtt_server = "your mqtt_server IP"  # 替换为您的MQTT服务器地址
 mqtt_port = 1883
 
 # OpenAI GPT设置
-openai_api_key = "sk-LkztyA0iuGmy25FHFd95A790C60b445e9e2e51C4D8081f1b"  # 替换为您的OpenAI API密钥
+openai_api_key = "your api-key"  # 替换为您的OpenAI API密钥
 
 
 def on_connect(client, userdata, flags, rc):
@@ -53,7 +53,7 @@ def on_message_esp32_input(client, userdata, msg):
 
 
 def call_chatgpt(prompt, api_key, conversation_history):
-    url = 'https://apai.zyai.online/v1/chat/completions'
+    url = 'url'    ## 这里替换为你的中转apikey的接口地址或官方的接口地址
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
@@ -87,7 +87,7 @@ async def generate_speech(input_text):
     latest_audio_data = audio_content
     print("Audio updated successfully.")
     print(
-        "You can listen to the latest audio at: http://10.178.122.30:5000/latest_audio")
+        "You can listen to the latest audio at: http://localhost:5000/latest_audio")   ##这里为你PC的IP和你设置的端口
 
 
 @app.route('/latest_audio')
