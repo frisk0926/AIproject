@@ -45,6 +45,7 @@
 2. MQTT broker和EMQX 官方下载链接：[https://www.emqx.io](https://www.emqx.io)
 
 3. ESP32+MAX9814+百度STT调用源码参考：[https://blog.csdn.net/wojueburenshu/article/details/119244390](https://blog.csdn.net/wojueburenshu/article/details/119244390ops_request_misc=&request_id=&biz_id=102&utm_term=esp32%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-119244390.142)
+4. EPS32-audioI2S库：https://github.com/schreibfaul1/ESP32-audioI2S
 
 *PS: 链接最好复制到浏览器自行打开，直接点击打开可能出错。*
 
