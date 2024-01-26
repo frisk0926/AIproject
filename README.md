@@ -5,7 +5,8 @@
 
 ### (1) 流程图
 
-![语音助手流程图](https://github.com/frisk0926/AIproject/assets/129162725/0a8903f5-1d96-4010-8482-f3395daf8874)
+![语音助手流程图](https://github.com/frisk0926/AIproject/assets/129162725/9acf90bc-441d-4810-9d3e-b1c5f0e51163)
+
 
 
 ### (2) 主要硬件介绍
