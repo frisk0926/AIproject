@@ -9,7 +9,7 @@
 #include "WiFiUser.h"
 
 #define ADC 2
-#define key 0
+#define key 0             //没有什么用处  一开始想着是用按钮按下然后结束录音的  后来没有用  也没删lol
 #define I2S_DOUT      4  //25
 #define I2S_BCLK      5  //27
 #define I2S_LRC       6  //26
