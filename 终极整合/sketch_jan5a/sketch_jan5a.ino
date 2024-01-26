@@ -104,7 +104,7 @@ void setup() {
     timerStop(timer); // 先暂停
 
     
-    adc_data = (uint16_t *)ps_malloc(adc_data_len * sizeof(uint16_t));
+    adc_data = (uint16_t *)ps_malloc(adc_data_len * sizeof(uint16_t));        //ps_malloc 指使用片外PSRAM内存
     if (!adc_data) {
     Serial.println("Failed to allocate memory for adc_data");
     }
