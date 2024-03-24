@@ -49,7 +49,9 @@
 
 
 ## 四、流程简述
-[![Bilibili Video](https://i0.hdslb.com/bfs/archive/560d392f9bb7197be9edce6a9ff9b3f5378cb00e.jpg)](https://www.bilibili.com/video/BV1Mp4y1m7Hb/)
+[![Image](https://github.com/frisk0926/AIproject/assets/129162725/2e2058d3-63fa-4e7b-a027-c97558f6ee7a)](https://www.bilibili.com/video/BV1Mp4y1m7Hb/?spm_id_from=333.999.0.0&vd_source=2db74ec90973b6ad4288c206eb816ef1)
+
+
 
 
 *PS: 链接最好复制到浏览器自行打开，直接点击打开可能出错。*
