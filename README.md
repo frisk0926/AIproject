@@ -49,6 +49,8 @@
 
 
 ## 四、流程简述
-<iframe src="//player.bilibili.com/player.html?aid=966815541&bvid=BV1Mp4y1m7Hb&cid=1420436475&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+[![Bilibili Video](https://i0.hdslb.com/bfs/archive/560d392f9bb7197be9edce6a9ff9b3f5378cb00e.jpg)](https://www.bilibili.com/video/BV1Mp4y1m7Hb/)
+
+
 *PS: 链接最好复制到浏览器自行打开，直接点击打开可能出错。*
 
