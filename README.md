@@ -47,5 +47,8 @@
 3. ESP32+MAX9814+百度STT调用源码参考：[https://blog.csdn.net/wojueburenshu/article/details/119244390](https://blog.csdn.net/wojueburenshu/article/details/119244390ops_request_misc=&request_id=&biz_id=102&utm_term=esp32%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-119244390.142)
 4. EPS32-audioI2S库：https://github.com/schreibfaul1/ESP32-audioI2S
 
+
+## 四、流程简述
+<iframe src="//player.bilibili.com/player.html?aid=966815541&bvid=BV1Mp4y1m7Hb&cid=1420436475&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 *PS: 链接最好复制到浏览器自行打开，直接点击打开可能出错。*
 
